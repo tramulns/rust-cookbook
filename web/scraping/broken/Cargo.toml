@@ -1,0 +1,14 @@
+[package]
+name = "broken"
+version = "0.1.0"
+authors = ["Ayrat Kaspranov (tramulns) <user@tramulns.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+error-chain = "0.12.4"
+tokio = { version = "1.2.0", features = ["full"] }
+select = "0.5.0"
+reqwest = "0.11.0"
+url = "2.2.0"
